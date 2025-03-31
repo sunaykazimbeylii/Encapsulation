@@ -109,13 +109,13 @@ namespace EncapsulationAndRecord.Models
         }
         public Product( string brandname, string model, decimal price , decimal cost , int count)
         {
-            _brandname=brandname;
-            _model=model;       
-            _price=price;
-            _cost=cost;
-            _count=count;
+            Brandname=brandname;
+            Model=model;       
+            Price=price;
+            Cost=cost;
+            Count=count;
         
-            _id = string.Concat(_brandname.Substring(0, 2), _model.Substring(0, 2));
+            _id = string.Concat(Brandname.Substring(0, 2), Model.Substring(0, 2));
              
             if (count-->0)
             {

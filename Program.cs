@@ -10,6 +10,7 @@ namespace EncapsulationAndRecord
 
             product.GetInfo();
             product.Sale();
+           
         }
     }
 }
